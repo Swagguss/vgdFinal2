@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: com.spoiledcat.git.ui:Unity.VersionControl.Git:BranchesCache
+  cacheType: 2
+  lastUpdatedAtString: 2025-05-08T11:15:19.907-07:00
+  initializedAtString: 2025-05-08T11:09:29.942-07:00
+  localBranches:
+  - name: HELP-ME-GOD
+    tracking: origin/HELP-ME-GOD
+  - name: master
+    tracking: origin/master
+  remoteBranches:
+  - name: origin/HEAD
+    tracking: '[None]'
+  - name: origin/HELP-ME-GOD
+    tracking: '[None]'
+  - name: origin/main
+    tracking: '[None]'
+  - name: origin/master
+    tracking: '[None]'
+  remotes:
+  - name: origin
+    url: vgdFinal
+    login: 
+    user: 
+    host: 
+    function: 0
+    token: 
+  localConfigBranches:
+    keys:
+    - HELP-ME-GOD
+    - master
+    values:
+    - name: HELP-ME-GOD
+      remote:
+        name: origin
+        url: vgdFinal
+      trackingBranch: HELP-ME-GOD
+    - name: master
+      remote:
+        name: origin
+        url: vgdFinal
+      trackingBranch: master
+  remoteConfigBranches:
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - HEAD
+      - HELP-ME-GOD
+      - main
+      - master
+    subKeyValues:
+    - Values:
+      - name: HEAD
+        remote:
+          name: origin
+          url: vgdFinal
+        trackingBranch: 
+      - name: HELP-ME-GOD
+        remote:
+          name: origin
+          url: vgdFinal
+        trackingBranch: 
+      - name: main
+        remote:
+          name: origin
+          url: vgdFinal
+        trackingBranch: 
+      - name: master
+        remote:
+          name: origin
+          url: vgdFinal
+        trackingBranch: 
+  configRemotes:
+    keys:
+    - origin
+    values:
+    - name: origin
+      url: vgdFinal
