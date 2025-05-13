@@ -72,13 +72,13 @@
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Deprecated\CinemachinePathBase.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Components\CinemachineSplineDollyLookAtTargets.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Deprecated\DeprecatedAttributes.cs" />
-    <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Core\LookaheadSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Deprecated\LegacyLensSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Components\CinemachineFollow.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Deprecated\LegacyLensSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Core\LookaheadSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Deprecated\CinemachineLegacyCameraEvents.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\ThirdParty\Clipper.Core.cs" />
-    <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Behaviours\CinemachineCamera.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\PostProcessing\CinemachinePostProcessing.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Behaviours\CinemachineCamera.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\ThirdParty\Clipper.Minkowski.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\SaveDuringPlay\Attributes.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Core\CinemachineBlenderSettings.cs" />
@@ -87,10 +87,10 @@
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Timeline\CinemachineShotPlayable.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\PostProcessing\CinemachineVolumeSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Helpers\CinemachineCameraEvents.cs" />
-    <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\ThirdParty\clipper.cs" />
-    <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\ThirdParty\Clipper.Engine.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Behaviours\CinemachineExternalCamera.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\ThirdParty\clipper.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Core\GaussianFilter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\ThirdParty\Clipper.Engine.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Deprecated\CinemachineDoNotUpgrade.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Components\CinemachineHardLockToTarget.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Components\CinemachineThirdPersonFollow.cs" />
@@ -109,14 +109,14 @@
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Behaviours\CinemachineConfiner2D.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Impulse\CinemachineImpulseListener.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Deprecated\CinemachineDollyCart.cs" />
-    <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Behaviours\CinemachineDecollider.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Helpers\GroupWeightManipulator.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Behaviours\CinemachineDecollider.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Core\CameraUpdateManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Core\CinemachineComponentBase.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Core\Predictor.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Behaviours\CinemachineSplineCart.cs" />
-    <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Impulse\CinemachineImpulseManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Components\CinemachinePanTilt.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Impulse\CinemachineImpulseManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Components\CinemachineSplineDolly.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Core\CameraBlendStack.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Behaviours\CinemachineFreeLookModifier.cs" />
@@ -131,8 +131,8 @@
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Behaviours\CinemachineDeoccluder.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Core\CinemachinePropertyAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\AssemblyInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Behaviours\CinemachineSequencerCamera.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Impulse\CinemachineImpulseDefinition.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Behaviours\CinemachineSequencerCamera.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Behaviours\CinemachineCameraOffset.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Core\UnityVectorExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Impulse\CinemachinExternalImpulseListener.cs" />
@@ -177,11 +177,11 @@
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Debug\CinemachineDebug.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Core\CinemachineCameraManagerBase.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Core\SplineContainerExtensions.cs" />
-    <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Core\SignalSourceAsset.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Behaviours\CinemachineFollowZoom.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Core\InputAxisControllerBase.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Behaviours\CinemachineSplineRoll.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Deprecated\CinemachineGroupComposer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Core\SignalSourceAsset.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Debug\DebugText.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Core\NoiseSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Runtime\Behaviours\CinemachineShotQualityEvaluator.cs" />
@@ -679,6 +679,38 @@
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f\Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meryel.UnityCodeAssist.Synchronizer">
+      <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.Synchronizer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meryel.UnityCodeAssist.YamlDotNet">
+      <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.YamlDotNet.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meryel.UnityCodeAssist.Logger">
+      <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.Logger.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meryel.UnityCodeAssist.MQTTnet.Extensions.ManagedClient">
+      <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.MQTTnet.Extensions.ManagedClient.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meryel.UnityCodeAssist.MQTTnet">
+      <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.MQTTnet.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meryel.UnityCodeAssist.ProjectData">
+      <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.ProjectData.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meryel.UnityCodeAssist.SynchronizerModel">
+      <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.SynchronizerModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meryel.UnityCodeAssist.Newtonsoft.Json">
+      <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">

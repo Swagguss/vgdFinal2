@@ -1,9 +1,15 @@
 using System.Collections;
 using UnityEngine;
-
+[DefaultExecutionOrder(-1)]
 public class PlayerController : MonoBehaviour
 {
     public Camera cam;
+
+    private RopeController currentRope = null;
+    private int currentSpan = -1;
+
+    private SpringJoint2D footAnchorJoint = null;
+    private Rigidbody2D ropeAnchorRB = null;
 
     public GameObject thighJoint, calfJoint, footJoint;
     private Rigidbody2D thighRB, calfRB, footRB;
@@ -17,9 +23,7 @@ public class PlayerController : MonoBehaviour
     public float anchorRange = 1.5f;
     public LayerMask anchorLayerMask;
     public Transform selector;
-
-    private RopeController currentRope = null;
-    private int currentSpan = -1;
+    public float swingSpeed = 800f;
 
     private float lenThigh, lenCalf;
     private float thighBaseRotation, calfBaseRotation;
@@ -50,42 +54,54 @@ public class PlayerController : MonoBehaviour
     {
         if (currentRope != null)
         {
+            Destroy(footAnchorJoint);
+            Destroy(ropeAnchorRB.gameObject);
+
             currentRope.hangingSectionIndex = -1;
             currentRope = null;
             currentSpan = -1;
+            footAnchorJoint = null;
+            ropeAnchorRB = null;
             return;
         }
 
         Collider2D[] hits = Physics2D.OverlapCircleAll(footJoint.transform.position,
-                                                       anchorRange,
-                                                       anchorLayerMask);
+                                                       anchorRange, anchorLayerMask);
 
-        RopeController.SpanCollider bestSpan = null;
-        float bestDistSqr = float.PositiveInfinity;
+        RopeController.SpanCollider best = null;
+        float bestD2 = float.PositiveInfinity;
 
-        foreach (var hit in hits)
+        foreach (var h in hits)
         {
-            RopeController.SpanCollider span = hit.GetComponent<RopeController.SpanCollider>();
-            if (span == null) continue;
+            var sc = h.GetComponent<RopeController.SpanCollider>();
+            if (!sc) continue;
 
-            float d2 = ((Vector2)footJoint.transform.position - (Vector2)hit.transform.position).sqrMagnitude;
-            if (d2 < bestDistSqr)
-            {
-                bestSpan = span;
-                bestDistSqr = d2;
-            }
+            float d2 = ((Vector2)footJoint.transform.position -
+                        (Vector2)h.transform.position).sqrMagnitude;
+            if (d2 < bestD2) { bestD2 = d2; best = sc; }
         }
+        if (!best) return;
 
-        if (bestSpan == null) return;
+        Vector2 nodePos = best.GetComponentInParent<RopeController>()
+                              .GetNodePos(best.SpanIndex);
 
-        RopeController rope = bestSpan.GetComponentInParent<RopeController>();
-        if (rope == null) return;
+        GameObject dummy = new GameObject("RopeAnchorRB");
+        ropeAnchorRB = dummy.AddComponent<Rigidbody2D>();
+        ropeAnchorRB.bodyType = RigidbodyType2D.Kinematic;
+        ropeAnchorRB.position = nodePos;
 
-        rope.whatIsHangingFromTheRope = footJoint.transform;
-        rope.hangingSectionIndex = bestSpan.SpanIndex;
+        footAnchorJoint = footJoint.AddComponent<SpringJoint2D>();
+        footAnchorJoint.connectedBody = ropeAnchorRB;
+        footAnchorJoint.autoConfigureDistance = false;
+        footAnchorJoint.distance = 0.02f;
+        footAnchorJoint.enableCollision = false;
+        footAnchorJoint.frequency = 5f;
+        footAnchorJoint.dampingRatio = 0.7f;
 
-        currentRope = rope;
-        currentSpan = bestSpan.SpanIndex;
+        currentRope = best.GetComponentInParent<RopeController>();
+        currentSpan = best.SpanIndex;
+
+        currentRope.hangingSectionIndex = currentSpan;
     }
 
     void Update()
@@ -174,6 +190,22 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (currentRope && ropeAnchorRB)
+            ropeAnchorRB.MovePosition(currentRope.GetNodePos(currentSpan));
+        if (currentRope && footAnchorJoint)
+        {
+            Vector2 F = ((Vector2)footJoint.transform.position - wishPos).normalized * swingSpeed;
+
+            float playerMass = 3f*(footRB.mass + calfRB.mass + thighRB.mass);
+            F -= playerMass * Physics2D.gravity;
+
+            const float MaxExt = 4000f;
+            if (F.sqrMagnitude > MaxExt * MaxExt)
+                F = F.normalized * MaxExt;
+
+            currentRope.AddExternalForce(currentSpan, -F);
+        }
+
         ApplyPD(thighRB, desiredThighDeg);
         ApplyPD(calfRB, desiredThighDeg + desiredCalfDeg);
 

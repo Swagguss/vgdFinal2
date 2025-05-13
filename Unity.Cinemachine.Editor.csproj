@@ -83,8 +83,8 @@
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Editor\PropertyDrawers\LensSettingsPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Editor\Obsolete\CinemachineSmoothPathEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Editor\Impulse\CinemachineImpulseSourceEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Editor\PropertyDrawers\EmbeddedBlenderSettingsPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Editor\Editors\CinemachineStateDrivenCameraEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Editor\PropertyDrawers\EmbeddedBlenderSettingsPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Editor\Editors\CinemachineSplineDollyLookAtTargetsEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Editor\PropertyDrawers\DelayedVectorPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Editor\Utility\InspectorUtility.cs" />
@@ -98,8 +98,8 @@
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Editor\SaveDuringPlay\SaveDuringPlay.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Editor\Obsolete\CinemachineFramingTransposerEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Editor\Upgrader\UpgradeObjectToCm3.Data.cs" />
-    <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Editor\Editors\CinemachineMixingCameraEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Editor\Editors\CinemachineThirdPersonFollowEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Editor\Editors\CinemachineMixingCameraEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Editor\Editors\CinemachineHardLookAtEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Editor\Windows\CinemachineSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Editor\PropertyDrawers\SplineAutoDollyPropertyDrawer.cs" />
@@ -108,8 +108,8 @@
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Editor\Obsolete\CinemachineConfinerEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Editor\Utility\SerializedPropertyHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Editor\PropertyDrawers\Vector2AsRangePropertyDrawer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Editor\Utility\CinemachineChannelNames.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Editor\Editors\CinemachineExtensionEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Editor\Utility\CinemachineChannelNames.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Editor\PropertyDrawers\ChildCameraPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Editor\Obsolete\CinemachineVirtualCameraEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@624f919d8cdd\Editor\Utility\SplineDataInspectorUtility.cs" />
@@ -688,6 +688,38 @@
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f\Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meryel.UnityCodeAssist.Synchronizer">
+      <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.Synchronizer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meryel.UnityCodeAssist.YamlDotNet">
+      <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.YamlDotNet.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meryel.UnityCodeAssist.Logger">
+      <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.Logger.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meryel.UnityCodeAssist.MQTTnet.Extensions.ManagedClient">
+      <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.MQTTnet.Extensions.ManagedClient.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meryel.UnityCodeAssist.MQTTnet">
+      <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.MQTTnet.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meryel.UnityCodeAssist.ProjectData">
+      <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.ProjectData.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meryel.UnityCodeAssist.SynchronizerModel">
+      <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.SynchronizerModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meryel.UnityCodeAssist.Newtonsoft.Json">
+      <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="mscorlib">

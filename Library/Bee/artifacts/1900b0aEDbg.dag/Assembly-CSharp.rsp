@@ -457,6 +457,9 @@
 "Assets/Realistic Tree/Demo Scene/Buttonscript.cs"
 "Assets/Realistic Tree/Demo Scene/Rotate.cs"
 "Assets/Rocks and Boulders 2/Shaders/RotateGameObject.cs"
+"Assets/RopeController.cs"
+"Assets/RopeSection.cs"
+"Assets/SelectorAnimate.cs"
 -langversion:9.0
 /deterministic
 /optimize-
