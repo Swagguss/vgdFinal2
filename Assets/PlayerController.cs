@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
     private RopeController currentRope = null;
     private int currentSpan = -1;
 
-    private SpringJoint2D footAnchorJoint = null;
+    private DistanceJoint2D footAnchorJoint = null;
     private Rigidbody2D ropeAnchorRB = null;
 
     public GameObject thighJoint, calfJoint, footJoint;
@@ -23,7 +23,6 @@ public class PlayerController : MonoBehaviour
     public float anchorRange = 1.5f;
     public LayerMask anchorLayerMask;
     public Transform selector;
-    public float swingSpeed = 800f;
 
     private float lenThigh, lenCalf;
     private float thighBaseRotation, calfBaseRotation;
@@ -55,67 +54,41 @@ public class PlayerController : MonoBehaviour
         if (currentRope != null)
         {
             Destroy(footAnchorJoint);
-            Destroy(ropeAnchorRB.gameObject);
 
-            currentRope.hangingSectionIndex = -1;
             currentRope = null;
             currentSpan = -1;
             footAnchorJoint = null;
-            ropeAnchorRB = null;
             return;
         }
 
         Collider2D[] hits = Physics2D.OverlapCircleAll(footJoint.transform.position,
                                                        anchorRange, anchorLayerMask);
 
-        RopeController.SpanCollider best = null;
+        CapsuleCollider2D best = null;
+        int bestIndex = -1;
         float bestD2 = float.PositiveInfinity;
 
         foreach (var h in hits)
         {
-            var sc = h.GetComponent<RopeController.SpanCollider>();
+            var sc = h.GetComponent<CapsuleCollider2D>();
             if (!sc) continue;
 
             float d2 = ((Vector2)footJoint.transform.position -
                         (Vector2)h.transform.position).sqrMagnitude;
-            if (d2 < bestD2) { bestD2 = d2; best = sc; }
+            if (d2 < bestD2) { bestD2 = d2; best = sc; bestIndex = h.GetComponent<RopeLink>().index; }
         }
         if (!best) return;
 
-        Vector2 nodePos = best.GetComponentInParent<RopeController>()
-                              .GetNodePos(best.SpanIndex);
-
-        GameObject dummy = new GameObject("RopeAnchorRB");
-        ropeAnchorRB = dummy.AddComponent<Rigidbody2D>();
-        ropeAnchorRB.bodyType = RigidbodyType2D.Kinematic;
-        ropeAnchorRB.position = nodePos;
-
-        footAnchorJoint = footJoint.AddComponent<SpringJoint2D>();
-        footAnchorJoint.connectedBody = ropeAnchorRB;
-        footAnchorJoint.autoConfigureDistance = false;
-        footAnchorJoint.distance = 0.02f;
-        footAnchorJoint.enableCollision = false;
-        footAnchorJoint.frequency = 5f;
-        footAnchorJoint.dampingRatio = 0.7f;
-
+        Debug.Log(bestIndex);
         currentRope = best.GetComponentInParent<RopeController>();
-        currentSpan = best.SpanIndex;
+        currentSpan = bestIndex;
+        Rigidbody2D linkBody = currentRope.bodies[bestIndex];
 
-        currentRope.hangingSectionIndex = currentSpan;
-    }
-
-    void Update()
-    {
-        UpdateSelectorGizmo();
-
-        if (Input.GetMouseButtonDown(0))
-            TryToggleAnchor();
-
-        wishPos = cam.ScreenToWorldPoint(Input.mousePosition);
-        mouseTest.position = wishPos;
-        targetPos.position = wishPos;
-
-        SolveTwoBoneIK();
+        footAnchorJoint = footJoint.AddComponent<DistanceJoint2D>();
+        footAnchorJoint.connectedBody = linkBody;
+        footAnchorJoint.autoConfigureDistance = false;
+        footAnchorJoint.distance = 0.005f;
+        footAnchorJoint.enableCollision = false;
     }
 
     void UpdateSelectorGizmo()
@@ -130,11 +103,11 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
-        RopeController.SpanCollider closest = null;
+        CapsuleCollider2D closest = null;
         float best = float.PositiveInfinity;
         foreach (var h in hits)
         {
-            var sc = h.GetComponent<RopeController.SpanCollider>();
+            var sc = h.GetComponent<CapsuleCollider2D>();
             if (sc == null) continue;
 
             float d2 = ((Vector2)footJoint.transform.position - (Vector2)h.transform.position).sqrMagnitude;
@@ -151,6 +124,19 @@ public class PlayerController : MonoBehaviour
         selector.position = new Vector3(closest.transform.position.x,
                                         closest.transform.position.y,
                                         -5f);
+    }
+
+    void Update()
+    {
+        UpdateSelectorGizmo();
+        if (Input.GetMouseButtonDown(0))
+            TryToggleAnchor();
+
+        wishPos = cam.ScreenToWorldPoint(Input.mousePosition);
+        mouseTest.position = wishPos;
+        targetPos.position = wishPos;
+
+        SolveTwoBoneIK();
     }
 
     void SolveTwoBoneIK()
@@ -191,19 +177,9 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         if (currentRope && ropeAnchorRB)
-            ropeAnchorRB.MovePosition(currentRope.GetNodePos(currentSpan));
-        if (currentRope && footAnchorJoint)
         {
-            Vector2 F = ((Vector2)footJoint.transform.position - wishPos).normalized * swingSpeed;
-
-            float playerMass = 3f*(footRB.mass + calfRB.mass + thighRB.mass);
-            F -= playerMass * Physics2D.gravity;
-
-            const float MaxExt = 4000f;
-            if (F.sqrMagnitude > MaxExt * MaxExt)
-                F = F.normalized * MaxExt;
-
-            currentRope.AddExternalForce(currentSpan, -F);
+            Vector2 target = currentRope.bodies[currentSpan].transform.position;
+            ropeAnchorRB.MovePosition(target);
         }
 
         ApplyPD(thighRB, desiredThighDeg);
@@ -227,6 +203,11 @@ public class PlayerController : MonoBehaviour
                     Jump(chargeDepth, -mouseDelta);
                     chargeDepth = 0f; isCharging = false;
                 }
+                float tangential = Mathf.Abs(calfRB.angularVelocity * Mathf.Deg2Rad) * lenCalf;
+                Vector2 tangent = Vector2.Perpendicular(foot.collision.contacts[0].normal).normalized;
+                Vector2 impulse = tangent * tangential * 0.02f;
+
+                thighRB.AddForce(impulse, ForceMode2D.Impulse);
             }
         }
         else { chargeDepth = 0f; isCharging = false; }

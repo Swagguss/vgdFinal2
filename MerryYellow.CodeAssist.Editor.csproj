@@ -65,8 +65,8 @@
     <Compile Include="Packages\com.merry-yellow.code-assist\Editor\Input\Text2Yaml.cs" />
     <Compile Include="Packages\com.merry-yellow.code-assist\Editor\SetupManager.cs" />
     <Compile Include="Packages\com.merry-yellow.code-assist\Editor\Cleanup.cs" />
-    <Compile Include="Packages\com.merry-yellow.code-assist\Editor\AnalyzerPostProcessor.cs" />
     <Compile Include="Packages\com.merry-yellow.code-assist\Editor\Preferences\PreferenceMonitor.cs" />
+    <Compile Include="Packages\com.merry-yellow.code-assist\Editor\AnalyzerPostProcessor.cs" />
     <Compile Include="Packages\com.merry-yellow.code-assist\Editor\Logger\LoggerExtensions.cs" />
     <Compile Include="Packages\com.merry-yellow.code-assist\Editor\Input\Binary2TextExec.cs" />
     <Compile Include="Packages\com.merry-yellow.code-assist\Editor\ScriptFinder.cs" />
@@ -89,8 +89,8 @@
     <Compile Include="Packages\com.merry-yellow.code-assist\Editor\MQTTnetInitializer.cs" />
     <Compile Include="Packages\com.merry-yellow.code-assist\Editor\Preferences\PreferenceEntryHolder.cs" />
     <Compile Include="Packages\com.merry-yellow.code-assist\Editor\EditorCoroutines\EditorCoroutine.cs" />
-    <Compile Include="Packages\com.merry-yellow.code-assist\Editor\FeedbackWindow.cs" />
     <Compile Include="Packages\com.merry-yellow.code-assist\Editor\MQTTnetPublisher.cs" />
+    <Compile Include="Packages\com.merry-yellow.code-assist\Editor\FeedbackWindow.cs" />
     <Compile Include="Packages\com.merry-yellow.code-assist\Editor\Logger\UnitySink.cs" />
     <Compile Include="Packages\com.merry-yellow.code-assist\Editor\Preferences\RegistryMonitor.cs" />
   </ItemGroup>
@@ -605,8 +605,8 @@
       <HintPath>Library\PackageCache\com.unity.ext.nunit@031a54704bff\net40\unity-custom\nunit.framework.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Mono.Cecil">
-      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f\Mono.Cecil.dll</HintPath>
+    <Reference Include="Meryel.UnityCodeAssist.SynchronizerModel">
+      <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.SynchronizerModel.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Meryel.UnityCodeAssist.Synchronizer">
@@ -617,8 +617,20 @@
       <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.YamlDotNet.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Meryel.UnityCodeAssist.Newtonsoft.Json">
+      <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Meryel.UnityCodeAssist.Logger">
       <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.Logger.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meryel.UnityCodeAssist.ProjectData">
+      <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.ProjectData.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f\Mono.Cecil.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Meryel.UnityCodeAssist.MQTTnet.Extensions.ManagedClient">
@@ -627,18 +639,6 @@
     </Reference>
     <Reference Include="Meryel.UnityCodeAssist.MQTTnet">
       <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.MQTTnet.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Meryel.UnityCodeAssist.ProjectData">
-      <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.ProjectData.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Meryel.UnityCodeAssist.SynchronizerModel">
-      <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.SynchronizerModel.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Meryel.UnityCodeAssist.Newtonsoft.Json">
-      <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="mscorlib">

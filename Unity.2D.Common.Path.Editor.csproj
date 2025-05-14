@@ -99,8 +99,8 @@
     <Compile Include="Library\PackageCache\com.unity.2d.common@2df623fe8b00\Path\Editor\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.common@2df623fe8b00\Path\Editor\IMGUI\IDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.common@2df623fe8b00\Path\Editor\EditorTool\ScriptableData.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.common@2df623fe8b00\Path\Editor\EditorTool\PathComponentEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.common@2df623fe8b00\Path\Editor\IMGUI\GUIFramework\CommandAction.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.common@2df623fe8b00\Path\Editor\EditorTool\PathComponentEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.common@2df623fe8b00\Path\Editor\IMGUI\GUIFramework\GenericDefaultControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.common@2df623fe8b00\Path\Editor\EditablePath\IUndoObject.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.common@2df623fe8b00\Path\Editor\Shapes\Polygon.cs" />
@@ -604,8 +604,8 @@
       <HintPath>Library\PackageCache\com.unity.ext.nunit@031a54704bff\net40\unity-custom\nunit.framework.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Mono.Cecil">
-      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f\Mono.Cecil.dll</HintPath>
+    <Reference Include="Meryel.UnityCodeAssist.SynchronizerModel">
+      <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.SynchronizerModel.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Meryel.UnityCodeAssist.Synchronizer">
@@ -616,8 +616,20 @@
       <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.YamlDotNet.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Meryel.UnityCodeAssist.Newtonsoft.Json">
+      <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Meryel.UnityCodeAssist.Logger">
       <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.Logger.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meryel.UnityCodeAssist.ProjectData">
+      <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.ProjectData.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f\Mono.Cecil.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Meryel.UnityCodeAssist.MQTTnet.Extensions.ManagedClient">
@@ -626,18 +638,6 @@
     </Reference>
     <Reference Include="Meryel.UnityCodeAssist.MQTTnet">
       <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.MQTTnet.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Meryel.UnityCodeAssist.ProjectData">
-      <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.ProjectData.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Meryel.UnityCodeAssist.SynchronizerModel">
-      <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.SynchronizerModel.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Meryel.UnityCodeAssist.Newtonsoft.Json">
-      <HintPath>Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="mscorlib">

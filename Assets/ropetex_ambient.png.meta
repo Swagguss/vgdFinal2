@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ropetex_ambient_0: -3943056701315793839
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

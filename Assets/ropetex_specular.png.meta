@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ropetex_specular_0: 556725447686343611
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
