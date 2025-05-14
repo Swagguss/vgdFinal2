@@ -254,11 +254,11 @@
     <Compile Include="Library\PackageCache\com.unity.test-framework@607a88b8f2d7\UnityEditor.TestRunner\TestLaunchers\RuntimeTestLauncherBase.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@607a88b8f2d7\UnityEditor.TestRunner\Api\TestAdaptor.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@607a88b8f2d7\UnityEditor.TestRunner\CommandLineParser\ICommandLineOption.cs" />
+    <Compile Include="Library\PackageCache\com.unity.test-framework@607a88b8f2d7\UnityEditor.TestRunner\TestRun\ITestJobDataHolder.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@607a88b8f2d7\UnityEditor.TestRunner\TestRun\Tasks\SaveUndoIndexTask.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@607a88b8f2d7\UnityEditor.TestRunner\TestRun\Tasks\CleanupConstructDelegatorTask.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@607a88b8f2d7\UnityEditor.TestRunner\TestLaunchers\Helpers\DelayedCallback.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@607a88b8f2d7\UnityEditor.TestRunner\Api\ITestRunnerApi.cs" />
-    <Compile Include="Library\PackageCache\com.unity.test-framework@607a88b8f2d7\UnityEditor.TestRunner\TestRun\ITestJobDataHolder.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@607a88b8f2d7\UnityEditor.TestRunner\TestRun\Tasks\Scene\CreateNewSceneTask.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@607a88b8f2d7\UnityEditor.TestRunner\UnityTestProtocol\Messages\PlayerSettingsMessage.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@607a88b8f2d7\UnityEditor.TestRunner\TestRun\Data\TestJobData.cs" />

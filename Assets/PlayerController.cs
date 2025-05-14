@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 [DefaultExecutionOrder(-1)]
@@ -9,15 +10,16 @@ public class PlayerController : MonoBehaviour
     private int currentSpan = -1;
 
     private DistanceJoint2D footAnchorJoint = null;
-    private Rigidbody2D ropeAnchorRB = null;
+    private readonly Rigidbody2D ropeAnchorRB = null;
 
     public GameObject thighJoint, calfJoint, footJoint;
     private Rigidbody2D thighRB, calfRB, footRB;
     private Foot foot;
 
     public Transform targetPos, mouseTest, thighWish;
+    private BoxCollider2D bounds;
 
-    public float Kp = 600f, Kd = 80f, torqueCap = 2000f, maxJumpForce = 200f;
+    public float Kp = 600f, Kd = 80f, torqueCap = 2000f;
 
     [Header("Rope anchor")]
     public float anchorRange = 1.5f;
@@ -30,17 +32,16 @@ public class PlayerController : MonoBehaviour
     private Vector2 wishPos;
 
     private Vector2 prevWishPos = Vector2.zero;
-    private bool isCharging = false;
-    private float chargeDepth = 0f;
-    public float pressDeadZone = 0.1f;
-
+    private GameManager gameManager;
 
     private void Start()
     {
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
         thighRB = thighJoint.GetComponent<Rigidbody2D>();
         calfRB = calfJoint.GetComponent<Rigidbody2D>();
         footRB = footJoint.GetComponent<Rigidbody2D>();
         foot = footJoint.GetComponent<Foot>();
+        bounds = gameObject.GetComponent<BoxCollider2D>();
 
         lenThigh = Vector2.Distance(thighJoint.transform.position, calfJoint.transform.position);
         lenCalf = Vector2.Distance(calfJoint.transform.position, footJoint.transform.position);
@@ -128,15 +129,21 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        UpdateSelectorGizmo();
-        if (Input.GetMouseButtonDown(0))
-            TryToggleAnchor();
+        if (!gameManager.gameOver)
+        {
+            UpdateSelectorGizmo();
+            if (Input.GetMouseButtonDown(0))
+                TryToggleAnchor();
 
-        wishPos = cam.ScreenToWorldPoint(Input.mousePosition);
-        mouseTest.position = wishPos;
-        targetPos.position = wishPos;
+            wishPos = cam.ScreenToWorldPoint(Input.mousePosition);
+            mouseTest.position = wishPos;
+            targetPos.position = wishPos;
 
-        SolveTwoBoneIK();
+            SolveTwoBoneIK();
+            Bounds playerBoundary = GetMaxBounds(thighJoint.transform.position, gameObject);
+            bounds.offset = (Vector2)playerBoundary.center;
+            bounds.size = (Vector2)playerBoundary.size;
+        }
     }
 
     void SolveTwoBoneIK()
@@ -176,51 +183,31 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (currentRope && ropeAnchorRB)
+        if (!gameManager.gameOver)
         {
-            Vector2 target = currentRope.bodies[currentSpan].transform.position;
-            ropeAnchorRB.MovePosition(target);
-        }
-
-        ApplyPD(thighRB, desiredThighDeg);
-        ApplyPD(calfRB, desiredThighDeg + desiredCalfDeg);
-
-        if (foot.collision != null && foot.collision.contacts.Length > 0)
-        {
-            Vector2 n = foot.collision.contacts[0].normal;
-            ApplyPD(footRB, Mathf.Atan2(n.y, n.x) * Mathf.Rad2Deg);
-
-            if (foot.isGrounded)
+            if (currentRope && ropeAnchorRB)
             {
-                Vector2 normal = n.normalized;
-                Vector2 mouseDelta = wishPos - prevWishPos;
-                float press = Vector2.Dot(mouseDelta, normal);
-
-                if (press > pressDeadZone) { isCharging = true; chargeDepth += press; }
-                bool released = isCharging && press < -pressDeadZone;
-                if (released)
-                {
-                    Jump(chargeDepth, -mouseDelta);
-                    chargeDepth = 0f; isCharging = false;
-                }
-                float tangential = Mathf.Abs(calfRB.angularVelocity * Mathf.Deg2Rad) * lenCalf;
-                Vector2 tangent = Vector2.Perpendicular(foot.collision.contacts[0].normal).normalized;
-                Vector2 impulse = tangent * tangential * 0.02f;
-
-                thighRB.AddForce(impulse, ForceMode2D.Impulse);
+                Vector2 target = currentRope.bodies[currentSpan].transform.position;
+                ropeAnchorRB.MovePosition(target);
             }
+
+            ApplyPD(thighRB, desiredThighDeg);
+            ApplyPD(calfRB, desiredThighDeg + desiredCalfDeg);
+
+            float tangential = Mathf.Atan2((wishPos - prevWishPos).y, (wishPos - prevWishPos).x) - Mathf.Atan2(((Vector2)thighJoint.transform.position - prevWishPos).y, ((Vector2)thighJoint.transform.position - prevWishPos).x);
+            Vector2 tangent = tangential > 0 ? Vector2.right : Vector2.left;
+            Vector2 mouseDelta = wishPos - prevWishPos;
+            Vector2 impulse = tangent * mouseDelta.magnitude * 5f;
+
+            thighRB.AddForce(impulse, ForceMode2D.Force);
+            if (foot.collision != null && foot.collision.contacts.Length > 0)
+            {
+                Vector2 n = foot.collision.contacts[0].normal;
+                ApplyPD(footRB, Mathf.Atan2(n.y, n.x) * Mathf.Rad2Deg);
+            }
+
+            prevWishPos = wishPos;
         }
-        else { chargeDepth = 0f; isCharging = false; }
-
-        prevWishPos = wishPos;
-    }
-
-    void Jump(float depth, Vector2 direction)
-    {
-        Vector2 impulse = direction * Mathf.Clamp(depth, 0f, maxJumpForce);
-        thighRB.AddForce(impulse, ForceMode2D.Impulse);
-        calfRB.AddForce(impulse, ForceMode2D.Impulse);
-        StartCoroutine(BoostPD(0.12f));
     }
 
     IEnumerator BoostPD(float t)
@@ -238,5 +225,21 @@ public class PlayerController : MonoBehaviour
         float torque = Kp * errorRad - Kd * velRad;
         torque = Mathf.Clamp(torque, -torqueCap, torqueCap);
         rb.AddTorque(torque, ForceMode2D.Force);
+    }
+
+    Bounds GetMaxBounds(Vector2 origin, GameObject g)
+    {
+        var b = new Bounds(origin, Vector2.zero);
+        foreach (Renderer r in g.GetComponentsInChildren<Renderer>())
+        {
+            b.Encapsulate(r.bounds);
+        }
+        return b;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (!gameManager.gameOver)
+            gameManager.GameOver();
     }
 }
