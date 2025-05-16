@@ -112,8 +112,8 @@
     <Compile Include="Library\PackageCache\com.unity.burst@59eb6f11d242\Runtime\BurstCompileAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.burst@59eb6f11d242\Runtime\BurstString.Float.cs" />
     <Compile Include="Library\PackageCache\com.unity.burst@59eb6f11d242\Runtime\Intrinsics\x86\Ssse3.cs" />
-    <Compile Include="Library\PackageCache\com.unity.burst@59eb6f11d242\Runtime\DiagnosticId.cs" />
     <Compile Include="Library\PackageCache\com.unity.burst@59eb6f11d242\Runtime\Intrinsics\x86\Sse3.cs" />
+    <Compile Include="Library\PackageCache\com.unity.burst@59eb6f11d242\Runtime\DiagnosticId.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.burst@59eb6f11d242\Runtime\Unity.Burst.asmdef" />
@@ -1084,6 +1084,16 @@
       <HintPath>X:\Unity\6000.1.2f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

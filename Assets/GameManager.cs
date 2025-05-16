@@ -22,8 +22,9 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log((playerController.thighJoint.transform.position.y - 1940f) / 1940f);
         depthText.text = "Depth: " + Mathf.Round((playerController.thighJoint.transform.position.y - 1940f)) + "m";
-        depthBar.value = (playerController.thighJoint.transform.position.y - 1940f) / 1940f;
+        depthBar.value = 1f + (playerController.thighJoint.transform.position.y - 1940f) / 1940f;
     }
 
     IEnumerator Reload()

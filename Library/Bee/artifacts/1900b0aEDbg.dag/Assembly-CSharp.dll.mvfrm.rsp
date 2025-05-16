@@ -33,7 +33,11 @@ Library\Bee\artifacts\mvdfrm\Unity.Postprocessing.Runtime.ref.dll_A62F0B3B323564
 Library\Bee\artifacts\mvdfrm\Unity.Settings.Editor.ref.dll_7FC13EE358CAD697.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Splines.Editor.ref.dll_F98C217B864908B0.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Splines.ref.dll_CD3BC4E940113B11.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.TextMeshPro.Editor.ref.dll_37E92434B2D8A6CF.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.TextMeshPro.ref.dll_A4B478B3CE6E8702.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualStudio.Editor.ref.dll_0788C6E0BDFBBC54.mvfrm
+Library\Bee\artifacts\mvdfrm\UnityEditor.UI.ref.dll_5DAE2CC8CF4B8C9E.mvfrm
+Library\Bee\artifacts\mvdfrm\UnityEngine.UI.ref.dll_1A140323D56DB509.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Collections.LowLevel.ILSupport.dll_A8DBA71237A1D37F.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.AccessibilityModule.dll_2653690BA10A1E0D.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.AdaptivePerformanceModule.dll_C4D46823BCBFB3B9.mvfrm

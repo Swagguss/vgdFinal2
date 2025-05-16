@@ -131,6 +131,7 @@
 -define:CINEMACHINE_POST_PROCESSING_V2
 -define:CINEMACHINE_PHYSICS_2D
 -define:CINEMACHINE_PHYSICS
+-define:CINEMACHINE_UGUI
 -define:CINEMACHINE_PIXEL_PERFECT_2_0_3
 -define:CINEMACHINE_UNITY_ANIMATION
 -define:CINEMACHINE_UIELEMENTS
@@ -393,6 +394,8 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.Mathematics.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.Postprocessing.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.Splines.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
 -analyzer:"X:/Unity/6000.1.2f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"X:/Unity/6000.1.2f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"X:/Unity/6000.1.2f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"

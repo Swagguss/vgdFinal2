@@ -83,8 +83,8 @@
     <Compile Include="Library\PackageCache\com.unity.2d.animation@53bd21164c9c\Runtime\SpriteSkinHelpers.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@53bd21164c9c\Runtime\SpriteLib\SpriteLibrarySourceAsset.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@53bd21164c9c\Runtime\BatchedDeformation\UpdateBoundsJob.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@53bd21164c9c\Runtime\SpriteLib\SpriteResolver.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@53bd21164c9c\Runtime\SpriteSkinContainer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@53bd21164c9c\Runtime\SpriteLib\SpriteResolver.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@53bd21164c9c\Runtime\MeshUtilities.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@53bd21164c9c\Runtime\SkeletonAsset.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@53bd21164c9c\Runtime\NativeCustomSlice.cs" />
@@ -1098,6 +1098,14 @@
     </Reference>
     <Reference Include="System.Xml.Serialization">
       <HintPath>X:\Unity\6000.1.2f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
