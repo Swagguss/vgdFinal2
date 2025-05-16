@@ -111,9 +111,9 @@
     <Compile Include="Library\PackageCache\com.unity.ugui@f55986520ec2\Runtime\UGUI\UI\Core\Layout\VerticalLayoutGroup.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@f55986520ec2\Runtime\UGUI\EventSystem\EventData\AxisEventData.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@f55986520ec2\Runtime\UGUI\UI\Core\DefaultControls.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ugui@f55986520ec2\Runtime\UGUI\EventSystem\RaycasterManager.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ugui@f55986520ec2\Runtime\UGUI\EventSystem\Raycasters\PhysicsRaycaster.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@f55986520ec2\Runtime\UGUI\EventSystem\EventData\BaseEventData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ugui@f55986520ec2\Runtime\UGUI\EventSystem\Raycasters\PhysicsRaycaster.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ugui@f55986520ec2\Runtime\UGUI\EventSystem\RaycasterManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@f55986520ec2\Runtime\UGUI\UI\Core\SpecializedCollections\IndexedSet.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@f55986520ec2\Runtime\UGUI\UI\Core\IGraphicEnabledDisabled.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@f55986520ec2\Runtime\UGUI\EventSystem\Raycasters\Physics2DRaycaster.cs" />
@@ -141,9 +141,9 @@
     <Compile Include="Library\PackageCache\com.unity.ugui@f55986520ec2\Runtime\UGUI\Properties\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@f55986520ec2\Runtime\UGUI\EventSystem\EventTriggerType.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@f55986520ec2\Runtime\UGUI\UI\Core\Layout\HorizontalOrVerticalLayoutGroup.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ugui@f55986520ec2\Runtime\UGUI\UI\Core\Layout\LayoutRebuilder.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@f55986520ec2\Runtime\UGUI\EventSystem\UIElements\PanelEventHandler.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@f55986520ec2\Runtime\UGUI\UI\Core\Culling\RectangularVertexClipper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ugui@f55986520ec2\Runtime\UGUI\UI\Core\Layout\LayoutRebuilder.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@f55986520ec2\Runtime\UGUI\EventSystem\ExecuteEvents.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@f55986520ec2\Runtime\UGUI\UI\Core\Layout\HorizontalLayoutGroup.cs" />
   </ItemGroup>

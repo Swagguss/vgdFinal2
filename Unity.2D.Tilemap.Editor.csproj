@@ -76,9 +76,9 @@
     <Compile Include="Library\PackageCache\com.unity.2d.tilemap@e08379fa62fd\Editor\TileSet\TileSet.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.tilemap@e08379fa62fd\Editor\TilePaletteActiveTargetsProperties.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.tilemap@e08379fa62fd\Editor\EditorTools\GridSelection\GridSelectionRotationTool.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.tilemap@e08379fa62fd\Editor\EditorTools\RotateTool.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.tilemap@e08379fa62fd\Editor\GridBrushEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.tilemap@e08379fa62fd\Editor\EditorTools\FillTool.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tilemap@e08379fa62fd\Editor\EditorTools\RotateTool.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.tilemap@e08379fa62fd\Editor\UI\TilePaletteBrushPanelButton.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.tilemap@e08379fa62fd\Editor\GridSelectionEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.tilemap@e08379fa62fd\Editor\UI\TilePaletteContextMenuHandler.cs" />
@@ -109,9 +109,9 @@
     <Compile Include="Library\PackageCache\com.unity.2d.tilemap@e08379fa62fd\Editor\UI\TilePaletteClipboardPanelPopup.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.tilemap@e08379fa62fd\Editor\TilePalettePrefabUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.tilemap@e08379fa62fd\Editor\UI\TilePaletteMouseCursorUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.tilemap@e08379fa62fd\Editor\UI\TilePaletteClipboardButton.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.tilemap@e08379fa62fd\Editor\GridPaintingState.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.tilemap@e08379fa62fd\Editor\GridPaintPaletteWindowPreferences.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tilemap@e08379fa62fd\Editor\UI\TilePaletteClipboardButton.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.tilemap@e08379fa62fd\Editor\UI\TilemapEditorToolButton.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.tilemap@e08379fa62fd\Editor\EditorTools\PaintTool.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.tilemap@e08379fa62fd\Editor\UI\TilePaletteOverlayToolbarElementAttribute.cs" />

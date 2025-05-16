@@ -95,8 +95,8 @@
     <Compile Include="Library\PackageCache\com.unity.ugui@f55986520ec2\Runtime\TMP\TMP_ShaderUtilities.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@f55986520ec2\Runtime\TMP\TMP_Style.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@f55986520ec2\Runtime\TMP\MaterialReferenceManager.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ugui@f55986520ec2\Runtime\TMP\TMP_SpriteAnimator.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@f55986520ec2\Runtime\TMP\TMP_UpdateRegistery.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ugui@f55986520ec2\Runtime\TMP\TMP_SpriteAnimator.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@f55986520ec2\Runtime\TMP\TMP_TextUtilities.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@f55986520ec2\Runtime\TMP\TMP_MeshInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@f55986520ec2\Runtime\TMP\TMP_ScrollbarEventHandler.cs" />
