@@ -105,12 +105,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fe9423bed76b4d4081666b6a3f73dfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  topAnchor: {fileID: 3850729130615965721}
+  topAnchor: {fileID: 5141424812207180786}
   linkPrefab: {fileID: 24112673522364867, guid: 5e21f20c33a369949bebf56754d7ccb3, type: 3}
   links: 7
   linkLength: 0.61
-  frequency: 53.57
-  damping: 6.65
 --- !u!120 &2934634403387067218
 LineRenderer:
   serializedVersion: 2

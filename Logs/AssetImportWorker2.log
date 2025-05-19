@@ -1,32 +1,32 @@
 Using pre-set license
 Built from '6000.1/staging' branch; Version is '6000.1.2f1 (8e2281df4c52) revision 9314945'; Using compiler version '194234433'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 16068 MB
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 32673 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
-Date: 2025-05-16T14:14:52Z
+Date: 2025-05-18T23:13:08Z
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\6000.1.2f1\Editor\Unity.exe
+X:\Unity\6000.1.2f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker2
 -projectPath
-C:/Users/tromn/VGD Final
+C:/Users/tromn/OneDrive/Desktop/vsProjects/vgdFinal2
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-55833
+49270
 -job-worker-count
-7
+5
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name
 AssetImport
-Successfully changed project path to: C:/Users/tromn/VGD Final
-C:/Users/tromn/VGD Final
+Successfully changed project path to: C:/Users/tromn/OneDrive/Desktop/vsProjects/vgdFinal2
+C:/Users/tromn/OneDrive/Desktop/vsProjects/vgdFinal2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-allocator-temp-initial-block-size-main=262144"
     "memorysetup-allocator-temp-initial-block-size-worker=262144"
@@ -62,13 +62,19 @@ C:/Users/tromn/VGD Final
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14472]  Target information:
+Player connection [26836]  Target information:
 
-Player connection [14472]  * "[IP] 172.20.10.2 [Port] 0 [Flags] 2 [Guid] 2968323408 [EditorId] 2968323408 [Version] 1048832 [Id] WindowsEditor(7,Swagtop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [26836]  * "[IP] 192.168.0.153 [Port] 0 [Flags] 2 [Guid] 736487768 [EditorId] 736487768 [Version] 1048832 [Id] WindowsEditor(7,whatthesigma) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [14472] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [14472] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 7
+Player connection [26836]  * "[IP] 169.254.7.8 [Port] 0 [Flags] 2 [Guid] 736487768 [EditorId] 736487768 [Version] 1048832 [Id] WindowsEditor(7,whatthesigma) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [26836]  * "[IP] 192.168.31.1 [Port] 0 [Flags] 2 [Guid] 736487768 [EditorId] 736487768 [Version] 1048832 [Id] WindowsEditor(7,whatthesigma) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [26836]  * "[IP] 192.168.5.1 [Port] 0 [Flags] 2 [Guid] 736487768 [EditorId] 736487768 [Version] 1048832 [Id] WindowsEditor(7,whatthesigma) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [26836] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [26836] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -79,60 +85,60 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.81 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 3.17 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.1.2f1 (8e2281df4c52)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.1.2f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/tromn/VGD Final/Assets
+[Subsystems] Discovering subsystems at path X:/Unity/6000.1.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/tromn/OneDrive/Desktop/vsProjects/vgdFinal2/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:         Direct3D 12 [level 12.1]
-    Renderer:        NVIDIA GeForce RTX 4070 Laptop GPU (ID=0x2860)
+    Renderer:        NVIDIA GeForce RTX 3070 (ID=0x2484)
     Vendor:          NVIDIA
-    VRAM:            7948 MB
-    App VRAM Budget: 7180 MB
-    Driver:          32.0.15.6624
+    VRAM:            8018 MB
+    App VRAM Budget: 7250 MB
+    Driver:          32.0.15.6109
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.1.2f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.1.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
+Mono path[0] = 'X:/Unity/6000.1.2f1/Editor/Data/Managed'
+Mono path[1] = 'X:/Unity/6000.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'X:/Unity/6000.1.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.017856 seconds.
-- Loaded All Assemblies, in  0.705 seconds
+Register platform support module: X:/Unity/6000.1.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005234 seconds.
+- Loaded All Assemblies, in  0.878 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.585 seconds
-Domain Reload Profiling: 1285ms
-	BeginReloadAssembly (229ms)
+- Finished resetting the current domain, in  0.663 seconds
+Domain Reload Profiling: 1540ms
+	BeginReloadAssembly (327ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (67ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (77ms)
 	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (114ms)
-	LoadAllAssembliesAndSetupDomain (272ms)
-		LoadAssemblies (223ms)
+	initialDomainReloadingComplete (98ms)
+	LoadAllAssembliesAndSetupDomain (356ms)
+		LoadAssemblies (327ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (267ms)
-			TypeCache.Refresh (264ms)
-				TypeCache.ScanAssembly (245ms)
+		AnalyzeDomain (347ms)
+			TypeCache.Refresh (345ms)
+				TypeCache.ScanAssembly (322ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (585ms)
+	FinalizeReload (664ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (522ms)
+		SetupLoadedEditorAssemblies (588ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (88ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (118ms)
-			ProcessInitializeOnLoadAttributes (219ms)
-			ProcessInitializeOnLoadMethodAttributes (92ms)
+			InitializePlatformSupportModulesInManaged (90ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (121ms)
+			ProcessInitializeOnLoadAttributes (256ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -145,11 +151,11 @@ Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInter
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.029 seconds
+- Loaded All Assemblies, in  0.883 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.31 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.33 ms, found 1 plugins.
 Native extension for WindowsStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Package Manager log level set to [2]
@@ -157,36 +163,36 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.738 seconds
-Domain Reload Profiling: 1756ms
-	BeginReloadAssembly (309ms)
+- Finished resetting the current domain, in  0.707 seconds
+Domain Reload Profiling: 1588ms
+	BeginReloadAssembly (276ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (67ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (76ms)
-	LoadAllAssembliesAndSetupDomain (548ms)
-		LoadAssemblies (520ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (489ms)
+		LoadAssemblies (417ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (201ms)
-			TypeCache.Refresh (152ms)
-				TypeCache.ScanAssembly (129ms)
-			BuildScriptInfoCaches (39ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (738ms)
+		AnalyzeDomain (236ms)
+			TypeCache.Refresh (118ms)
+				TypeCache.ScanAssembly (102ms)
+			BuildScriptInfoCaches (99ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (708ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (578ms)
+		SetupLoadedEditorAssemblies (556ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (176ms)
-			ProcessInitializeOnLoadAttributes (314ms)
-			ProcessInitializeOnLoadMethodAttributes (68ms)
-			AfterProcessingInitializeOnLoad (11ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (231ms)
+			ProcessInitializeOnLoadAttributes (241ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (10ms)
@@ -202,1451 +208,119 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.55 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 151 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2589 unused Assets / (3.3 MB). Loaded Objects now: 3197.
-Memory consumption went from 205.6 MB to 202.2 MB.
-Total: 9.123500 ms (FindLiveObjects: 0.376200 ms CreateObjectMapping: 0.225600 ms MarkObjects: 6.721800 ms  DeleteObjects: 1.798300 ms)
+Unloading 2592 unused Assets / (3.8 MB). Loaded Objects now: 3200.
+Memory consumption went from 207.4 MB to 203.6 MB.
+Total: 9.817900 ms (FindLiveObjects: 0.385600 ms CreateObjectMapping: 0.637600 ms MarkObjects: 6.665800 ms  DeleteObjects: 2.127900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 177243.087835 seconds.
-  path: Assets/RockPrefabs/Rock1A.prefab
-  artifactKey: Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RockPrefabs/Rock1A.prefab using Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b21bdb3daf1b32c6bc2eddfd95873ce') in 0.4040967 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+  Time since last request: 20902.622710 seconds.
+  path: Assets/Mountain Terrain rocks and tree/Prefab/mountain_terrain_01.prefab
+  artifactKey: Guid(9b2e1ea347f77fb4b936e3d12b09c0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mountain Terrain rocks and tree/Prefab/mountain_terrain_01.prefab using Guid(9b2e1ea347f77fb4b936e3d12b09c0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13642750b75badb196e65145d2e7970f') in 0.1501637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.037818 seconds.
-  path: Assets/RockPrefabs/Rock1A.prefab
-  artifactKey: Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RockPrefabs/Rock1A.prefab using Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '280af9b637b9b5a564b7855b8d18b122') in 0.0426959 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.090618 seconds.
-  path: Assets/RockPrefabs/Rock1A.prefab
-  artifactKey: Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RockPrefabs/Rock1A.prefab using Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31a74944eea36de47d9727c79ae95710') in 0.0424273 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 1148.547811 seconds.
-  path: Assets/RockPrefabs/Rock1A 1.prefab
-  artifactKey: Guid(fa1ad1ab558238244a9a5ae0f191a3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RockPrefabs/Rock1A 1.prefab using Guid(fa1ad1ab558238244a9a5ae0f191a3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c485495f2b648e1c44a22d82986cd45b') in 0.0595047 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.563668 seconds.
-  path: Assets/RockPrefabs/Rock1A 1.prefab
-  artifactKey: Guid(fa1ad1ab558238244a9a5ae0f191a3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RockPrefabs/Rock1A 1.prefab using Guid(fa1ad1ab558238244a9a5ae0f191a3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d383d98445c7a624cf0db9351d6b493') in 0.002337 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 43.806792 seconds.
-  path: Assets/RockPrefabs/Rock1A.prefab
-  artifactKey: Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RockPrefabs/Rock1A.prefab using Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '060a9a9b80c6f9b624d8f41f13883feb') in 0.0584351 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 7994.124229 seconds.
-  path: Assets/RockPrefabs/Rock1A.prefab
-  artifactKey: Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RockPrefabs/Rock1A.prefab using Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e2ecb4535c1fdb3e2f91bcb091396dc') in 0.2549845 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.413454 seconds.
-  path: Assets/RockPrefabs/Rock1A.prefab
-  artifactKey: Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RockPrefabs/Rock1A.prefab using Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd06115c8e508181212cc763fc3417b5b') in 0.0507371 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.970900 seconds.
-  path: Assets/RockPrefabs/Rock1A.prefab
-  artifactKey: Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RockPrefabs/Rock1A.prefab using Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '220c9e1591296f1403def5f9e65b1516') in 0.0501381 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.067055 seconds.
-  path: Assets/RockPrefabs/Rock1A.prefab
-  artifactKey: Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RockPrefabs/Rock1A.prefab using Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49b18fc2abbc4e0a60173dddd51d511a') in 0.0454966 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.458499 seconds.
-  path: Assets/RockPrefabs/Rock1A.prefab
-  artifactKey: Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RockPrefabs/Rock1A.prefab using Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f56761bc3c47402102561d78e6bc206') in 0.0453886 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.725022 seconds.
-  path: Assets/RockPrefabs/Rock1A.prefab
-  artifactKey: Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RockPrefabs/Rock1A.prefab using Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e0590df598c26d2bcee5ff5442b1be8') in 0.0449236 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.558708 seconds.
-  path: Assets/RockPrefabs/Rock1A.prefab
-  artifactKey: Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RockPrefabs/Rock1A.prefab using Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f446af5395c9a1f60371a93113ae3b6') in 0.042169 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.409436 seconds.
-  path: Assets/RockPrefabs/Rock1A.prefab
-  artifactKey: Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RockPrefabs/Rock1A.prefab using Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8612284b2878d1e96305e5a989ae74c5') in 0.0517528 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.426329 seconds.
-  path: Assets/RockPrefabs/Rock1A.prefab
-  artifactKey: Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RockPrefabs/Rock1A.prefab using Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27247fbedf5d1e843e7c73a88ff79540') in 0.0449578 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.825399 seconds.
-  path: Assets/RockPrefabs/Rock1A.prefab
-  artifactKey: Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RockPrefabs/Rock1A.prefab using Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e8a8f6fba58516d249bf09007cff628') in 0.0474686 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.623981 seconds.
-  path: Assets/RockPrefabs/Rock1A.prefab
-  artifactKey: Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RockPrefabs/Rock1A.prefab using Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1048885d2241032b60049e05a3601ea') in 0.0476785 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.599197 seconds.
-  path: Assets/RockPrefabs/Rock1A.prefab
-  artifactKey: Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RockPrefabs/Rock1A.prefab using Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79bec1463c4aa8bc057197d54c0f0b37') in 0.0493146 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.799773 seconds.
-  path: Assets/RockPrefabs/Rock1A.prefab
-  artifactKey: Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RockPrefabs/Rock1A.prefab using Guid(6c241522136b0fe40b0173ee270d89c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95ba2d87d82b144e76c64038961123cc') in 0.0490778 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 153.445482 seconds.
-  path: Assets/RockPrefabs/rock1 1.prefab
-  artifactKey: Guid(149b24d1b6ebc3d4e9fa070763952011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RockPrefabs/rock1 1.prefab using Guid(149b24d1b6ebc3d4e9fa070763952011) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ecabf19ed7826deedc62de5e779e38b') in 0.1868071 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.347587 seconds.
-  path: Assets/RockPrefabs/rock1 moving.prefab
-  artifactKey: Guid(149b24d1b6ebc3d4e9fa070763952011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RockPrefabs/rock1 moving.prefab using Guid(149b24d1b6ebc3d4e9fa070763952011) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eff9f054ac1da460c4e8b6d31d582821') in 0.0718527 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Prepare
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 2.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2584 unused Assets / (3.7 MB). Loaded Objects now: 3209.
-Memory consumption went from 182.5 MB to 178.8 MB.
-Total: 61.414700 ms (FindLiveObjects: 0.482500 ms CreateObjectMapping: 0.263900 ms MarkObjects: 58.280900 ms  DeleteObjects: 2.385600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 96.958465 seconds.
-  path: Assets/DynamicBodyTrigger.cs
-  artifactKey: Guid(cb89725000b24a84a85d5d1f49ce7407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DynamicBodyTrigger.cs using Guid(cb89725000b24a84a85d5d1f49ce7407) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40b663825f0ece1024f33a44837e2819') in 0.0009868 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  5.128 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.20 ms, found 1 plugins.
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.315 seconds
-Domain Reload Profiling: 6432ms
-	BeginReloadAssembly (985ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (56ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (116ms)
-	RebuildCommonClasses (610ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (74ms)
-	LoadAllAssembliesAndSetupDomain (3420ms)
-		LoadAssemblies (3127ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1006ms)
-			TypeCache.Refresh (17ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (973ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1316ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (758ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (255ms)
-			ProcessInitializeOnLoadAttributes (385ms)
-			ProcessInitializeOnLoadMethodAttributes (88ms)
-			AfterProcessingInitializeOnLoad (16ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 1.94 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2589 unused Assets / (3.8 MB). Loaded Objects now: 3211.
-Memory consumption went from 183.0 MB to 179.2 MB.
-Total: 11.074900 ms (FindLiveObjects: 0.775400 ms CreateObjectMapping: 0.453100 ms MarkObjects: 7.301400 ms  DeleteObjects: 2.543500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 2.11 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2584 unused Assets / (3.6 MB). Loaded Objects now: 3211.
-Memory consumption went from 186.3 MB to 182.7 MB.
-Total: 10.705700 ms (FindLiveObjects: 0.608000 ms CreateObjectMapping: 0.388100 ms MarkObjects: 7.463100 ms  DeleteObjects: 2.243700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 2.19 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2584 unused Assets / (3.6 MB). Loaded Objects now: 3211.
-Memory consumption went from 189.4 MB to 185.8 MB.
-Total: 15.587500 ms (FindLiveObjects: 1.216100 ms CreateObjectMapping: 0.361400 ms MarkObjects: 11.128100 ms  DeleteObjects: 2.879600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 79.943260 seconds.
-  path: Assets/DynamicBodyTrigger.cs
-  artifactKey: Guid(cb89725000b24a84a85d5d1f49ce7407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DynamicBodyTrigger.cs using Guid(cb89725000b24a84a85d5d1f49ce7407) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '805aafb0fb5abade715eb59fee95b551') in 0.0030355 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.938 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.72 ms, found 1 plugins.
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.752 seconds
-Domain Reload Profiling: 1684ms
-	BeginReloadAssembly (313ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (21ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (58ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (483ms)
-		LoadAssemblies (486ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (169ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (141ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (753ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (555ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (173ms)
-			ProcessInitializeOnLoadAttributes (294ms)
-			ProcessInitializeOnLoadMethodAttributes (66ms)
-			AfterProcessingInitializeOnLoad (12ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 1.99 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2589 unused Assets / (3.6 MB). Loaded Objects now: 3213.
-Memory consumption went from 183.0 MB to 179.5 MB.
-Total: 9.033000 ms (FindLiveObjects: 0.387200 ms CreateObjectMapping: 0.214400 ms MarkObjects: 6.577900 ms  DeleteObjects: 1.852000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 1.90 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2584 unused Assets / (3.7 MB). Loaded Objects now: 3213.
-Memory consumption went from 186.3 MB to 182.6 MB.
-Total: 12.476200 ms (FindLiveObjects: 0.414200 ms CreateObjectMapping: 0.250800 ms MarkObjects: 9.199400 ms  DeleteObjects: 2.609600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.196 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.84 ms, found 1 plugins.
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.045 seconds
-Domain Reload Profiling: 2232ms
-	BeginReloadAssembly (357ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (29ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (57ms)
-	RebuildCommonClasses (83ms)
-	RebuildNativeTypeToScriptingClass (26ms)
-	initialDomainReloadingComplete (64ms)
-	LoadAllAssembliesAndSetupDomain (656ms)
-		LoadAssemblies (657ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (185ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (158ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1046ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (776ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (282ms)
-			ProcessInitializeOnLoadAttributes (385ms)
-			ProcessInitializeOnLoadMethodAttributes (78ms)
-			AfterProcessingInitializeOnLoad (18ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (23ms)
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 2.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2589 unused Assets / (4.0 MB). Loaded Objects now: 3215.
-Memory consumption went from 189.2 MB to 185.2 MB.
-Total: 13.834700 ms (FindLiveObjects: 0.739500 ms CreateObjectMapping: 0.573900 ms MarkObjects: 9.652800 ms  DeleteObjects: 2.866800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 3.81 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2584 unused Assets / (3.7 MB). Loaded Objects now: 3215.
-Memory consumption went from 192.5 MB to 188.8 MB.
-Total: 16.070200 ms (FindLiveObjects: 0.587600 ms CreateObjectMapping: 0.415900 ms MarkObjects: 12.179400 ms  DeleteObjects: 2.885100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.117 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.87 ms, found 1 plugins.
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.153 seconds
-Domain Reload Profiling: 2259ms
-	BeginReloadAssembly (367ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (30ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (58ms)
-	RebuildCommonClasses (79ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (574ms)
-		LoadAssemblies (569ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (206ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (175ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1154ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (898ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (246ms)
-			ProcessInitializeOnLoadAttributes (546ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
-			AfterProcessingInitializeOnLoad (18ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 2.65 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2589 unused Assets / (3.7 MB). Loaded Objects now: 3217.
-Memory consumption went from 195.4 MB to 191.8 MB.
-Total: 10.864600 ms (FindLiveObjects: 0.441200 ms CreateObjectMapping: 0.342700 ms MarkObjects: 7.478600 ms  DeleteObjects: 2.600400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 4.14 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2584 unused Assets / (3.5 MB). Loaded Objects now: 3217.
-Memory consumption went from 198.8 MB to 195.3 MB.
-Total: 14.977900 ms (FindLiveObjects: 0.767500 ms CreateObjectMapping: 0.339500 ms MarkObjects: 11.172200 ms  DeleteObjects: 2.696700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.002 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.18 ms, found 1 plugins.
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.778 seconds
-Domain Reload Profiling: 1780ms
-	BeginReloadAssembly (338ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (25ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (59ms)
-	RebuildCommonClasses (71ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (70ms)
-	LoadAllAssembliesAndSetupDomain (495ms)
-		LoadAssemblies (509ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (167ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (146ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (785ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (562ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (187ms)
-			ProcessInitializeOnLoadAttributes (287ms)
-			ProcessInitializeOnLoadMethodAttributes (66ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 1.46 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2589 unused Assets / (3.5 MB). Loaded Objects now: 3219.
-Memory consumption went from 203.6 MB to 200.0 MB.
-Total: 9.791100 ms (FindLiveObjects: 0.480200 ms CreateObjectMapping: 0.389000 ms MarkObjects: 6.720300 ms  DeleteObjects: 2.200000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 1.67 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2584 unused Assets / (3.7 MB). Loaded Objects now: 3219.
-Memory consumption went from 206.9 MB to 203.2 MB.
-Total: 14.461000 ms (FindLiveObjects: 0.498600 ms CreateObjectMapping: 0.312400 ms MarkObjects: 10.368300 ms  DeleteObjects: 3.279400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.151 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.80 ms, found 1 plugins.
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.931 seconds
-Domain Reload Profiling: 2071ms
-	BeginReloadAssembly (420ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (30ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (60ms)
-	RebuildCommonClasses (77ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (565ms)
-		LoadAssemblies (634ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (180ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (158ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (932ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (705ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (246ms)
-			ProcessInitializeOnLoadAttributes (355ms)
-			ProcessInitializeOnLoadMethodAttributes (75ms)
-			AfterProcessingInitializeOnLoad (16ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 1.74 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2589 unused Assets / (3.5 MB). Loaded Objects now: 3221.
-Memory consumption went from 209.8 MB to 206.4 MB.
-Total: 10.512800 ms (FindLiveObjects: 0.611600 ms CreateObjectMapping: 0.305000 ms MarkObjects: 6.973100 ms  DeleteObjects: 2.621600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 5957.071747 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(542f51fb697897f4ca3ccb2c6a5bc4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(542f51fb697897f4ca3ccb2c6a5bc4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c72db2779d72eb993f0e88d8150abd80') in 0.0067233 seconds
+  Time since last request: 191.921486 seconds.
+  path: Assets/Mountain Terrain rocks and tree/Materials
+  artifactKey: Guid(8af5ed6845257d34493268ce3f401a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mountain Terrain rocks and tree/Materials using Guid(8af5ed6845257d34493268ce3f401a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b5a3a42caaf76e64bb9415c175f3e6b') in 0.0011391 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.112661 seconds.
-  path: Assets/ColliderHelper.cs
-  artifactKey: Guid(7f21bca87f4109340a393dc56456b574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ColliderHelper.cs using Guid(7f21bca87f4109340a393dc56456b574) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b0db33f93d665597a891d1149f0c2b5') in 0.0013021 seconds
+  Time since last request: 1.108913 seconds.
+  path: Assets/Mountain Terrain rocks and tree/Materials/Trees
+  artifactKey: Guid(8429d5c4a67b70c47aebc9bd0a71d83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mountain Terrain rocks and tree/Materials/Trees using Guid(8429d5c4a67b70c47aebc9bd0a71d83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98f7dc384bccf5acd5e4ad563b38d318') in 0.0055181 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.180054 seconds.
-  path: Assets/PlayerController.cs
-  artifactKey: Guid(eea230ca946270b488c3674f3280a5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerController.cs using Guid(eea230ca946270b488c3674f3280a5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e84c9405043122df523f33af867aa67') in 0.0007756 seconds
+  Time since last request: 0.302686 seconds.
+  path: Assets/Mountain Terrain rocks and tree/Materials/Terrain
+  artifactKey: Guid(03e0d0fd7add2224f8fad894d1fbfe73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mountain Terrain rocks and tree/Materials/Terrain using Guid(03e0d0fd7add2224f8fad894d1fbfe73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '320f62f08ae37b63cf3b7e9a63ebdefe') in 0.0056986 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
-Received Prepare
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 1.45 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2584 unused Assets / (3.5 MB). Loaded Objects now: 3221.
-Memory consumption went from 185.4 MB to 181.8 MB.
-Total: 11.454400 ms (FindLiveObjects: 0.745800 ms CreateObjectMapping: 0.414600 ms MarkObjects: 7.984900 ms  DeleteObjects: 2.307600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
 Received Import Request.
-  Time since last request: 11.236622 seconds.
-  path: Assets/Textures
-  artifactKey: Guid(99c84e5d11947124d8e7d472e1e83fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures using Guid(99c84e5d11947124d8e7d472e1e83fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c8fcbd5a131e0f1f43365a43088f552') in 0.0006421 seconds
+  Time since last request: 0.610257 seconds.
+  path: Assets/Mountain Terrain rocks and tree/Materials/Terrain/mountain_terrain_01
+  artifactKey: Guid(f37b408346d8ecc438f152763ebf55eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mountain Terrain rocks and tree/Materials/Terrain/mountain_terrain_01 using Guid(f37b408346d8ecc438f152763ebf55eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64dd8839cab1af6330e8385d74ab00c3') in 0.0008447 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  3.988 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.96 ms, found 1 plugins.
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.901 seconds
-Domain Reload Profiling: 4884ms
-	BeginReloadAssembly (713ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (18ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (450ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (2763ms)
-		LoadAssemblies (2655ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (699ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (684ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (901ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (444ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (149ms)
-			ProcessInitializeOnLoadAttributes (218ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 1.77 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2589 unused Assets / (3.4 MB). Loaded Objects now: 3223.
-Memory consumption went from 185.2 MB to 181.7 MB.
-Total: 9.847700 ms (FindLiveObjects: 0.636300 ms CreateObjectMapping: 0.462500 ms MarkObjects: 6.889700 ms  DeleteObjects: 1.857700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
 Received Import Request.
-  Time since last request: 54.584859 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(942d5f92b1c83c647b13150c339edce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(942d5f92b1c83c647b13150c339edce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c37614bddcce70de580378a4d7684ae5') in 0.0024448 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 1.51 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2584 unused Assets / (3.6 MB). Loaded Objects now: 3223.
-Memory consumption went from 185.4 MB to 181.8 MB.
-Total: 8.406600 ms (FindLiveObjects: 0.380200 ms CreateObjectMapping: 0.417500 ms MarkObjects: 5.701500 ms  DeleteObjects: 1.906100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 1.52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2584 unused Assets / (3.5 MB). Loaded Objects now: 3223.
-Memory consumption went from 188.4 MB to 184.9 MB.
-Total: 7.979900 ms (FindLiveObjects: 0.572000 ms CreateObjectMapping: 0.311000 ms MarkObjects: 5.145100 ms  DeleteObjects: 1.950400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.753 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.51 ms, found 1 plugins.
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.615 seconds
-Domain Reload Profiling: 1364ms
-	BeginReloadAssembly (244ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (19ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (56ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (394ms)
-		LoadAssemblies (410ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (115ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (100ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (615ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (460ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (148ms)
-			ProcessInitializeOnLoadAttributes (247ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 1.29 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2589 unused Assets / (3.6 MB). Loaded Objects now: 3225.
-Memory consumption went from 191.3 MB to 187.8 MB.
-Total: 6.630600 ms (FindLiveObjects: 0.333000 ms CreateObjectMapping: 0.164100 ms MarkObjects: 4.548700 ms  DeleteObjects: 1.583900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 136.328274 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bae6bfa3f816225e4e056972ce940e3') in 0.4519948 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+  Time since last request: 0.037758 seconds.
+  path: Assets/Mountain Terrain rocks and tree/Materials/Terrain/mountain_terrain_01/mountain_terrain_01.mat
+  artifactKey: Guid(42f8049b0aa7e56428eacc14875ba421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mountain Terrain rocks and tree/Materials/Terrain/mountain_terrain_01/mountain_terrain_01.mat using Guid(42f8049b0aa7e56428eacc14875ba421) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '191abeffdfbc91c662d31e5403fcdfc9') in 0.0842817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.263268 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21d5e318aef6a10a119c8f31e385d068') in 0.0733188 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+  Time since last request: 0.000105 seconds.
+  path: Assets/Mountain Terrain rocks and tree/Materials/Terrain/mountain_terrain_01/mt_terrain_AO.png
+  artifactKey: Guid(6940f864b4873de469aaa76d3ec86491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mountain Terrain rocks and tree/Materials/Terrain/mountain_terrain_01/mt_terrain_AO.png using Guid(6940f864b4873de469aaa76d3ec86491) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af60293bea44e30fd83bd537f629b715') in 0.0351701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.593452 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '980fc07c2c9b59f8b288d1caf4f5807f') in 0.0883153 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+  Time since last request: 0.000043 seconds.
+  path: Assets/Mountain Terrain rocks and tree/Materials/Terrain/mountain_terrain_01/mt_terrain_MetallicSmoothness.png
+  artifactKey: Guid(8fa5eec2fe66e3844b08c35becf0b1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mountain Terrain rocks and tree/Materials/Terrain/mountain_terrain_01/mt_terrain_MetallicSmoothness.png using Guid(8fa5eec2fe66e3844b08c35becf0b1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6099b3371ca72933d0d9a184c030039b') in 0.0251112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.180210 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5be225c25124f76cf547bb1a74b8ae46') in 0.0831754 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+  Time since last request: 19.601768 seconds.
+  path: Assets/Mountain Terrain rocks and tree/Materials/Terrain/mountain_terrain_01/mountain_terrain_01 1.mat
+  artifactKey: Guid(06b9c8b7902111e478312074b10a6a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mountain Terrain rocks and tree/Materials/Terrain/mountain_terrain_01/mountain_terrain_01 1.mat using Guid(06b9c8b7902111e478312074b10a6a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c2a8a668c74c89e13dd7633c466194c') in 0.0314725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.911932 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f9b4eeb332382918c3a810dc6952cc7') in 0.0706187 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+  Time since last request: 757.299214 seconds.
+  path: Assets/LowlyPoly/Stylized Grass Texture/Materials/Stylize_Grass_diffuse.mat
+  artifactKey: Guid(516e6f11e8de6624eb6be4bac8c14555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Stylized Grass Texture/Materials/Stylize_Grass_diffuse.mat using Guid(516e6f11e8de6624eb6be4bac8c14555) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1daf4cc2df830807a9d25c7bf291bb1f') in 0.1717033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.136619 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e15e79b1a0b534d696b3321f43197ddd') in 0.0697967 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+  Time since last request: 947.966448 seconds.
+  path: Assets/Scenes/SampleScene/Lightmap-0_comp_dir.png
+  artifactKey: Guid(51e170d0a299acd46a204cea98424281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/Lightmap-0_comp_dir.png using Guid(51e170d0a299acd46a204cea98424281) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f9bf80eecdbcdd7283d90d757199b89') in 0.0283791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.973645 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b0354c900e84aa98da3ee1d5e72e009') in 0.0718484 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/SampleScene/Lightmap-2_comp_light.exr
+  artifactKey: Guid(4c780d073fe09984dbc143431c3d28e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/Lightmap-2_comp_light.exr using Guid(4c780d073fe09984dbc143431c3d28e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43d7bd270db04993ae4914c86a9219fa') in 0.0501515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.338164 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '122c8f7ee979a32fdb7288d425400956') in 0.0708918 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scenes/SampleScene/Lightmap-1_comp_light.exr
+  artifactKey: Guid(a9a7052e75a12eb479741c3f4d80698a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/Lightmap-1_comp_light.exr using Guid(a9a7052e75a12eb479741c3f4d80698a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9d0bb05e4ccd879085d14d44b64d12a') in 0.0215062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
-Received Import Request.
-  Time since last request: 1.545263 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37701878fb07808f907c3e07fdf4caec') in 0.0667714 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.908230 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23f76bd4ca006f99e3ffaa916b571e9a') in 0.0872368 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.376383 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93e2bcc45d546f6a30687dcf7dd61f7f') in 0.0643865 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.997943 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c30dcab2fba9e85986aca2089201b0bd') in 0.077825 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.278993 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ded42d65cead971e479f6f318b808fb5') in 0.0691584 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.988936 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62e9d0c214c0fe94c6afdb8bc5d5fd53') in 0.0695825 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.779999 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e895311b8c87f87bcd38591327a24005') in 0.064582 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.423338 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86ab6e0055a17689af5596634f5910b6') in 0.0675081 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.164965 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29823b3fe6dd3cf0833e75346fe6206d') in 0.0675134 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.629300 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd749d5f8cb4b992953139c6e7ef5b74f') in 0.0655616 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.788221 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12cfe47233fd95e5b06cc3b779630038') in 0.068381 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.390247 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b4d3a12c9f7ecc9fb5905fe54dcb576') in 0.0701973 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.361638 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '768e7b2c9739a427e55da59a426038e7') in 0.0823212 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.334064 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a3d262f7b6fb719271836d73e1fce93') in 0.0684385 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.387712 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbd4e7d7f74f9d810dfefcd3903b21c8') in 0.0664663 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.815386 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ac8d8ee45683d5a81841dee320f34e3') in 0.070667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.386796 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b2ea0eaa25ee6e2cb987ffb731d6211') in 0.0651165 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.750864 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '036e9ab5dd63164228e9306c4bc85423') in 0.0867491 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.723958 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2227c1cc0aaf9e0a430a027789266be7') in 0.0720687 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.354132 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b224df0af1633c609ba67ff0a9184a83') in 0.0507595 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.167399 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '728e4f0eaada795e9b6c7930d8029522') in 0.0500755 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.732833 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f642c4cfbaa2b25dbb6ba4013a647af') in 0.0684545 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.596777 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c99b30a88ccde5d994f1cb2e8217a88') in 0.1125724 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.296408 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea3258533b9986b74efa2482d1d4a75a') in 0.0687514 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.568502 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '258b7d9c914d27d9a73a12cbd58df416') in 0.080772 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.754780 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13cfde6d3b9007917c3433bb0fe288c6') in 0.0766847 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.027234 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6268c9b0eb4e5c943e4fbd16d761dff9') in 0.0709518 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.569695 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '199a58cdc679dbbee74f12bebac49564') in 0.0666622 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.405707 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '032cffc889175475e5c52c01b7ea7470') in 0.0757448 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 50.325425 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01d67e4f79e69c23ff1018dee377ab84') in 0.0806583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.763287 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b90c3963a64adf9adeb9b9b32d960816') in 0.0647079 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.568276 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55c5bc01b4cac167770e507697e2ff01') in 0.0882353 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.384504 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a8c030ea7baaf49c8f88cffeb8b23b3') in 0.0773616 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.574910 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee46a91f7ccace90a7f42f397c28ccaa') in 0.0680102 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.521409 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14a8383bee21bd418b679a200d4d7ce8') in 0.0674321 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.363961 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '474b1bab04ce4a4b4a3a9cd32bd1878a') in 0.0706852 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.161084 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2bc11b6a6146690fc6277ba4fd703bc') in 0.0828941 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.359405 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bdf45fc07ac84ce7925b0012ce6cc6d') in 0.0802449 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.935520 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a284f0087d9c4782737a78242091ac67') in 0.0714407 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.360033 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5dcaa330053791f38f58507ea4b776bb') in 0.0776567 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.920378 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5f7da877e893a3f56fa4c1b127a9536') in 0.0715063 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.369057 seconds.
-  path: Assets/Prefabs/rock1 moving 1.prefab
-  artifactKey: Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/rock1 moving 1.prefab using Guid(a30f8d65838fbe14ca23dbdd3dcb441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e2127e52d0043822ad6b5cb3dd8a89d') in 0.0658415 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 1039.088398 seconds.
-  path: Assets/Skin.physicsMaterial2D
-  artifactKey: Guid(3ca66185708f4dc4383bc38e72d9fd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skin.physicsMaterial2D using Guid(3ca66185708f4dc4383bc38e72d9fd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f539e5e34525dd5ef64381d7766a2717') in 0.0020958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 874.900520 seconds.
-  path: Assets/Skin.physicsMaterial2D
-  artifactKey: Guid(3ca66185708f4dc4383bc38e72d9fd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skin.physicsMaterial2D using Guid(3ca66185708f4dc4383bc38e72d9fd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4be5df284978bb13afc7ca68a41a1cf') in 0.0021691 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

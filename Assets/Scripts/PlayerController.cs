@@ -4,8 +4,6 @@ using UnityEngine;
 [DefaultExecutionOrder(-1)]
 public class PlayerController : MonoBehaviour
 {
-    public Camera cam;
-
     private RopeController currentRope = null;
     private int currentSpan = -1;
 
@@ -15,7 +13,6 @@ public class PlayerController : MonoBehaviour
     public GameObject thighJoint, calfJoint, footJoint;
     private Rigidbody2D thighRB, calfRB, footRB;
     private Foot foot;
-    private FrictionJoint2D footFrictionJoint;
 
     public Transform targetPos, mouseTest, thighWish;
     private BoxCollider2D bounds;
@@ -42,7 +39,6 @@ public class PlayerController : MonoBehaviour
         calfRB = calfJoint.GetComponent<Rigidbody2D>();
         footRB = footJoint.GetComponent<Rigidbody2D>();
         foot = footJoint.GetComponent<Foot>();
-        footFrictionJoint = foot.GetComponent<FrictionJoint2D>();
         bounds = gameObject.GetComponent<BoxCollider2D>();
 
         lenThigh = Vector2.Distance(thighJoint.transform.position, calfJoint.transform.position);
@@ -137,7 +133,7 @@ public class PlayerController : MonoBehaviour
             if (Input.GetMouseButtonDown(0))
                 TryToggleAnchor();
 
-            wishPos = cam.ScreenToWorldPoint(Input.mousePosition);
+            wishPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             mouseTest.position = wishPos;
             targetPos.position = wishPos;
 
@@ -204,23 +200,12 @@ public class PlayerController : MonoBehaviour
             thighRB.AddForce(impulse, ForceMode2D.Force);
             if (foot.collision != null && foot.collision.contacts.Length > 0)
             {
-                foot.GetComponent<FrictionJoint2D>().enabled = true;
                 Vector2 n = foot.collision.contacts[0].normal;
                 ApplyPD(footRB, Mathf.Atan2(n.y, n.x) * Mathf.Rad2Deg);
-            } else
-            {
-                foot.GetComponent<FrictionJoint2D>().enabled = false;
             }
 
             prevWishPos = wishPos;
         }
-    }
-
-    IEnumerator BoostPD(float t)
-    {
-        float kp0 = Kp; Kp *= 2f;
-        yield return new WaitForSeconds(t);
-        Kp = kp0;
     }
 
     void ApplyPD(Rigidbody2D rb, float desiredDeg)
@@ -240,6 +225,7 @@ public class PlayerController : MonoBehaviour
         {
             b.Encapsulate(r.bounds);
         }
+        b.center -= transform.position;
         return b;
     }
 
